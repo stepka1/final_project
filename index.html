@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Программа скорочтения. Разделяет текст на отдельные слова. Это позволяет читать в несколько раз быстрее.">
+    <title>Программа скорочтения</title>
+    <meta name="keywords" content="программа скорочтения, скорочтение, степовой кирилл, степовой, степовой кирилл итоговый проект">
+    <meta name="Author" content="Степовой Кирилл Олегович">
+    <meta name="Copyright" content="Степовой Кирилл Олегович">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>Программа</h1>
+        <form id="word-form">
+            <div class="form-group">
+                <label for="word-count">Количество слов в минуту:</label>
+                <input type="number" id="word-count" name="word-count" required>
+            </div>
+            <div class="form-group">
+                <label for="word-text">Текст для отображения:</label>
+                <textarea id="word-text" name="word-text" rows="4" cols="50" required></textarea>
+            </div>
+            <div class="form-actions">
+                <button type="submit">Начать</button>
+                <button type="button" id="stop-btn">Остановить</button>
+                <button type="reset">Сбросить</button>
+            </div>
+        </form>
+        <div id="word-output"></div>
+    </div>
+
+
+
+
+
+    <!-- <h1>Программа печати слов</h1>
+    <form id="word-form">
+      <label for="word-count">Количество слов:</label>
+      <input type="number" id="word-count" name="word-count" required>
+      <br>
+      <label for="word-text">Текст:</label>
+      <textarea id="word-text" name="word-text" required></textarea>
+      <br>
+      <button type="submit">Начать печатать</button>
+      <button type="button" id="stop-btn">Остановить</button>
+      <button type="reset">Сбросить</button>
+    </form>
+    <div id="word-output"></div> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
