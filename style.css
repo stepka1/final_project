@@ -10,10 +10,9 @@ body {
 }
 
 .container {
-  padding: 20px 0px 0px 0px;
+  padding: 20px 10px 0px 10px;
   max-width: 800px;
   margin: 0px auto;
-  /* padding: 20px; */
 }
 
 h1 {
@@ -83,6 +82,9 @@ button:hover {
   margin-bottom: 20px;
 }
 
+ul li:nth-child(1) {
+  list-style: none;
+}
 
 
 
