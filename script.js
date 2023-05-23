@@ -36,6 +36,7 @@ stopBtn.addEventListener('click', function() {
 });
 
 resetBtn.addEventListener('click', function() {
+  clearTimeout(timerId); 
   currentIndex = 0;
   output.textContent = '';
 });
